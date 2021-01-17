@@ -8,8 +8,19 @@
     left: 100px;
     
 }
+.navbar-brand img{
+    width: 140px;
+}
 .header{
-    background-color: blueviolet;
+    background-color blueviolet;
+    height: 600px;
+    background-image:
+     linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0.2)), url(ago.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
 }
 .navbar{
     padding-top: 20px !important ;
@@ -60,7 +71,7 @@
     padding: 12px;
     width: 150px;
     display: inline-block;
-    background-color: blueviolet;
+    background-color: transparent;
     text-decoration: none !important;
     columns: #fff;
     border: 2px solid #fff ;
@@ -71,11 +82,11 @@
     font-size: 14px;
 }
 .banner a:hover{
-    background-color: #fff;
+    background-color: #c060a1;
 color: black;
 }
 .express-btn{
-    background-color: #fff !important;
+    background-color: #c060a1 !important;
     color: black !important;
     margin-right: 5px;
 }
@@ -144,7 +155,7 @@ color: black;
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 .services-box:hover, .active-service{
-    background-color: #6900d1;
+    background-color: #c060a1;
     border-radius: 5px;
     color: #fff !important;
     box-shadow: 0 15px 15px 2px rgba(231, 231, 231, 0.5);
@@ -157,14 +168,14 @@ color: black;
 }
 /*-------------feature----------*/
 .col-md-6 img{
-    max-width: 500px;
-    max-height: 500px
+    max-width: 600px;
+    max-height: 600px
 }
 .feature, .explore{
     margin: 200px 0;
 }
 .feature img{
-    max-width: 77%;
+    max-width: 94%;
     cursor: pointer;
 }
 .feature h2{
@@ -184,7 +195,7 @@ color: black;
     width: 170px;
     padding: 15px 10px;
     display: block;
-    background: #6900d1;
+    background: #c060a1;
     text-decoration: none !important;
 color: #fff !important;
 border-radius: 5px;
@@ -207,7 +218,7 @@ box-shadow: 0 9px 9px 1px rgb(204, 204, 204, 0.5) ;
         margin: 100px 0; 
     }
     .carousel-item img{
-        width: 150px;
+        width: 225px;
         border-radius: 50%;
 
     }
@@ -240,7 +251,7 @@ box-shadow: 0 9px 9px 1px rgb(204, 204, 204, 0.5) ;
     }
     
     .carousel-indicators{
-        background-color: black;
+        background-color: #f1d4d4;
     }
     @media only screen and (max-width:800px){
         .carousel-item{
@@ -254,7 +265,7 @@ box-shadow: 0 9px 9px 1px rgb(204, 204, 204, 0.5) ;
 
     /*-------footer-------*/
     .footer{
-        background-color: #6900d1;
+        background-color: #790c5a;
         padding-top: 5px;
     }
     .footer h2{
